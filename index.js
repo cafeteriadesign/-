@@ -1024,14 +1024,22 @@ client.on('interactionCreate', async interaction => {
                     PermissionFlagsBits.ReadMessageHistory
                 ]
             },
-            {
-                id: TICKET_STAFF_ROLE_ID,
-                allow: [
-                    PermissionFlagsBits.ViewChannel,
-                    PermissionFlagsBits.SendMessages,
-                    PermissionFlagsBits.ReadMessageHistory
-                ]
-            }
+           {
+    id: TICKET_STAFF_ROLE_ID,
+    allow: [
+        PermissionFlagsBits.ViewChannel,
+        PermissionFlagsBits.SendMessages,
+        PermissionFlagsBits.ReadMessageHistory
+    ]
+},
+{
+    id: TICKET_STAFF_ROLE_ID_2,
+    allow: [
+        PermissionFlagsBits.ViewChannel,
+        PermissionFlagsBits.SendMessages,
+        PermissionFlagsBits.ReadMessageHistory
+    ]
+}
         ]
     });
 
